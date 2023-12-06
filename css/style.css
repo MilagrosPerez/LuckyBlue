@@ -399,22 +399,42 @@ footer i {
     font-size: 15px;
   }
 
-}
-
-
-
-@media screen and (max-width: 266px) {
   .hero {
     height: 300px;
   }
   .hero h2 {
     font-size: 20px;
   }
-
+  .informacion {
+    justify-content: center;
+    width: 80%;
+  }
   .informacion div p {
 
+    font-size: 12px;
+  }
+
+  .hero a {
     font-size: 15px;
   }
 
+  .contenedor div {
+    width: 60%;
+    height: 300px;
+    padding: 10px;
+  }
+
+  .botoncompra {
+
+    font-size: 10px;
+  }
+
+  .publicidad h3 {
+    font-size: 20px;
+  }
+
+  .productos h2 {
+    font-size: 20px;
+  }
 
 }
