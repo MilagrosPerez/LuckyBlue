@@ -37,9 +37,9 @@ header .logo h1 {
 
 header .logo a img {
   /* width = ancho */
-  width: 150px;
+  width: 130px;
   /* height = altura */
-  height: 150px;
+  height: 130px;
   padding: 20px;
 }
 
@@ -98,7 +98,7 @@ header nav ul li a:hover {
 }
 
 .bg-dark {
-  background-color: #464646!important;
+  background-color: #242424a7!important;
 }
 
 .submenu {
