@@ -97,11 +97,11 @@
         padding-top: 100px;
         }
     .contenedor {
-        width: 80%;
+        width: 100%;
         display: flex;
         justify-content: space-around;
         align-items: center;
-        margin: 20px;
+        //margin: 20px;
         flex-wrap: wrap;
          div {
             width: 380px;
@@ -291,3 +291,16 @@
   }
 
 }
+
+.titulo-producto {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+    h2 {
+        font-family: monospace;
+        font-size: 40px;
+        text-align: center;
+        padding-top: 40px;
+    }
+}
+

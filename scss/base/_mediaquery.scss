@@ -148,25 +148,31 @@
   
   
     .productos {
+          h2 {
+            font-size: 20px;
+          }
         .contenedor { 
                     div {
                         width: 60%;
-                        height: 300px;
+                        height: 250px;
                         padding: 20px;
+                        h3 {
+                          font-size: 15px;
+                        }
+                        .botoncompra {
+                          font-size: 10px;
+                          padding: 10px;
+                        }
                     }
         }
     }  
-    .botoncompra {
-      font-size: 10px;
-    }
+
+
   
     .publicidad h3 {
       font-size: 20px;
     }
   
-    .productos h2 {
-      font-size: 20px;
-    }
   
     footer {
         h2 {
@@ -191,6 +197,12 @@
     .container-fluid {
       flex-direction: row-reverse!important;
     }
+
+    .titulo-producto {
+      h2 {
+          font-size: 30px;
+      }
+  }
 
 }
   
