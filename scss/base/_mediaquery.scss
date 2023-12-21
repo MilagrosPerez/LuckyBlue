@@ -5,10 +5,7 @@
         flex-direction: column;
         justify-content: center;
         div {
-            width: 90%;
-            p {
-                width: 90%;
-              }
+            width: 80%;
             }
         }
   
@@ -131,21 +128,19 @@
             font-size: 20px;
         }
         a {
+            padding: 10px;
             font-size: 15px;
           }
         
     }
 
     .informacion {
-      justify-content: center;
-      width: 80%;
         div{ 
             p {
-              font-size: 12px;
+              font-size: 15px;
             }
         }
     }
-  
   
     .productos {
           h2 {
