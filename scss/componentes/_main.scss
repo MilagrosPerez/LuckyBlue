@@ -30,16 +30,13 @@
         padding: 15px;
         border-radius: 5%;
         font-family: monospace;
-        font-size: nth($font-size, 3);
+        font-size: nth($font-size, 4);
         }
     }
 
 .informacion {
   width: 100%;
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-  flex-wrap: wrap;
+  @include flex(flex, row, space-around, center, wrap);
     div {
         width: 40%;
         height: 300px;
@@ -90,10 +87,7 @@
         }
     .contenedor {
         width: 100%;
-        display: flex;
-        justify-content: space-around;
-        align-items: center;
-        //margin: 20px;
+        @include flex(flex, row, space-around, center, nowrap);
         flex-wrap: wrap;
          div {
             width: 380px;
@@ -136,10 +130,7 @@
 
 .motivoradio {
     margin: 20px;
-    display: flex;
-    flex-direction: column;
-    justify-content: start;
-    align-items: start;
+    @include flex(flex, column, start, start, nowrap);
     border: 1px solid #ced4da;
     border-radius: 0.375rem;
     padding: 1rem 0.75rem;
@@ -233,9 +224,7 @@
 }
 
 .acercade {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
+  @include flex(flex, row, space-between, center, nowrap);
     .texto {
       width: 40%;
         p {

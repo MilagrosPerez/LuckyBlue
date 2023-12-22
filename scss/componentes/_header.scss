@@ -3,9 +3,7 @@
 header {
     width: 100%;
     background-color: $color-bg;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+    @include flex(flex, row, space-between, center, nowrap);
     position: sticky;
     top: 0;
     z-index: 100;
@@ -13,8 +11,7 @@ header {
         width: 100%;
         ul {
             list-style: none;
-            display: flex;
-            justify-content: space-around;
+            @include flex(flex, row, space-around, start, nowrap);
             li {
                 margin: 20px;
                 position: relative;
