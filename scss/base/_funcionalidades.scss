@@ -1,0 +1,9 @@
+$color-bg: #4d4d4d;
+$font-size: 50px, 40px, 30px, 20px, 15px, 10px;
+
+
+%flex-center{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+}

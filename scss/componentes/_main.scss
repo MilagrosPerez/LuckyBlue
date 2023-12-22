@@ -9,13 +9,11 @@
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
-  display: flex;
+  @extend %flex-center;
   flex-direction: column;
-  justify-content: center;
-  align-items: center;
     h2 {
         font-family: monospace;
-        font-size: 50px;
+        font-size: nth($font-size, 1);
         color: white;
         }
     p {
@@ -32,7 +30,7 @@
         padding: 15px;
         border-radius: 5%;
         font-family: monospace;
-        font-size: 20px;
+        font-size: nth($font-size, 3);
         }
     }
 
@@ -47,31 +45,27 @@
         height: 300px;
         border: 2px solid black;
         background-color: #242424;
-        display: flex;
-        justify-content: center;
-        align-items: center;
+        @extend %flex-center;
         padding: 20px;
         margin: 20px;
         p {
             color: white;
             font-family: monospace;
-            font-size: 20px;
+            font-size: nth($font-size, 4);
             text-align: justify;
         }
     }
 }
 
 .publicidad {
-  display: flex;
+  @extend %flex-center;
   flex-direction: column;
-  justify-content: center;
-  align-items: center;
   margin: 20px;
   flex-wrap: wrap;
     h3 {
         color: #ca6702;
         font-family: monospace;
-        font-size: 40px;
+        font-size: nth($font-size, 2);
         text-align: center;
         padding: 10px;
         width: 100%;
@@ -84,14 +78,12 @@
   }
 
 .productos {
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  @extend %flex-center;
   flex-direction: column;
   flex-wrap: wrap;
     h2 {
         text-align: center;
-        font-size: 40px;
+        font-size: nth($font-size, 2);
         font-family: monospace;
         color: black;
         padding-top: 100px;
@@ -109,16 +101,14 @@
             text-align: center;
             border: #242424 solid 2px;
             margin: 20px;
-            display: flex;
-            justify-content: center;
-            align-items: center;
+            @extend %flex-center;
             flex-direction: column;
             img {
                 width: 100%;
                 height: 60%;
               }
             h3 {
-                font-size: 20px;
+                font-size: nth($font-size, 4);
                 font-family: monospace;
                 padding: 15px;
                 margin: 10px;
@@ -128,7 +118,7 @@
             }
             .botoncompra {
                 text-decoration: none;
-                font-size: 15px;
+                font-size: nth($font-size, 5);
                 font-family: monospace;
                 margin: 10px;
                 background-color: #ca6702;
@@ -162,7 +152,7 @@
 .ubicacion {
     h3 {
         font-family: monospace;
-        font-size: 25px;
+        font-size: nth($font-size, 3);
         text-align: center;
         padding-top: 40px;
         }
@@ -172,12 +162,10 @@
 }
 
 .titulo-respositorio {
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  @extend %flex-center;
     h3 {
         font-family: monospace;
-        font-size: 25px;
+        font-size: nth($font-size, 3);
         text-align: center;
         padding-top: 40px;
     }
@@ -235,12 +223,10 @@
 }
 
 .titulo-info {
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  @extend %flex-center;
     h2 {
         font-family: monospace;
-        font-size: 40px;
+        font-size: nth($font-size, 2);
         text-align: center;
         padding-top: 40px;
     }
@@ -253,7 +239,7 @@
     .texto {
       width: 40%;
         p {
-          font-size: 20px;
+          font-size: nth($font-size, 4);
           text-align: center;
           font-family: monospace;
           padding: 10px;
@@ -269,21 +255,17 @@
 }
 
 .valores {
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  @extend %flex-center;
   flex-direction: column;
   .texto {
     p {
-      font-size: 20px;
+      font-size: nth($font-size, 4);
       text-align: center;
       font-family: monospace;
       padding: 10px;
     }}
   .imagen{
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    @extend %flex-center;
     img {
       width: 70%;
       padding: 10px;
@@ -293,12 +275,10 @@
 }
 
 .titulo-producto {
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  @extend %flex-center;
     h2 {
         font-family: monospace;
-        font-size: 40px;
+        font-size: nth($font-size, 2);
         text-align: center;
         padding-top: 40px;
     }

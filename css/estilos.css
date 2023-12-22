@@ -1,5 +1,10 @@
-/*! ----- RESET ----- !*/
 @import url("https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap");
+.logo, .hero, .informacion div, .publicidad, .productos, .productos .contenedor div, .titulo-respositorio, .titulo-info, .valores, .valores .imagen, .titulo-producto {
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+
+/*! ----- RESET ----- !*/
 * {
   margin: 0;
   padding: 0;
@@ -40,7 +45,7 @@
 /*! ----- HEADER ----- !*/
 header {
   width: 100%;
-  background-color: #464646;
+  background-color: #4d4d4d;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -63,19 +68,17 @@ header {
           font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
           font-size: 20px; }
 
-.logo {
-  display: flex;
-  align-items: center; }
-  .logo h1 {
-    font-size: 30px;
-    color: white;
-    font-family: "Indie Flower", cursive; }
-  .logo a img {
-    /* width = ancho */
-    width: 130px;
-    /* height = altura */
-    height: 130px;
-    padding: 20px; }
+.logo h1 {
+  font-size: 30px;
+  color: white;
+  font-family: "Indie Flower", cursive; }
+
+.logo a img {
+  /* width = ancho */
+  width: 130px;
+  /* height = altura */
+  height: 130px;
+  padding: 20px; }
 
 /*! ----- MAIN ----- !*/
 .hero {
@@ -87,10 +90,7 @@ header {
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center; }
+  flex-direction: column; }
   .hero h2 {
     font-family: monospace;
     font-size: 50px;
@@ -108,7 +108,7 @@ header {
     padding: 15px;
     border-radius: 5%;
     font-family: monospace;
-    font-size: 20px; }
+    font-size: 30px; }
 
 .informacion {
   width: 100%;
@@ -121,9 +121,6 @@ header {
     height: 300px;
     border: 2px solid black;
     background-color: #242424;
-    display: flex;
-    justify-content: center;
-    align-items: center;
     padding: 20px;
     margin: 20px; }
     .informacion div p {
@@ -133,10 +130,7 @@ header {
       text-align: justify; }
 
 .publicidad {
-  display: flex;
   flex-direction: column;
-  justify-content: center;
-  align-items: center;
   margin: 20px;
   flex-wrap: wrap; }
   .publicidad h3 {
@@ -150,9 +144,6 @@ header {
     display: block; }
 
 .productos {
-  display: flex;
-  justify-content: center;
-  align-items: center;
   flex-direction: column;
   flex-wrap: wrap; }
   .productos h2 {
@@ -173,9 +164,6 @@ header {
       text-align: center;
       border: #242424 solid 2px;
       margin: 20px;
-      display: flex;
-      justify-content: center;
-      align-items: center;
       flex-direction: column; }
       .productos .contenedor div img {
         width: 100%;
@@ -214,22 +202,18 @@ header {
 
 .ubicacion h3 {
   font-family: monospace;
-  font-size: 25px;
+  font-size: 30px;
   text-align: center;
   padding-top: 40px; }
 
 .ubicacion div {
   text-align: center; }
 
-.titulo-respositorio {
-  display: flex;
-  justify-content: center;
-  align-items: center; }
-  .titulo-respositorio h3 {
-    font-family: monospace;
-    font-size: 25px;
-    text-align: center;
-    padding-top: 40px; }
+.titulo-respositorio h3 {
+  font-family: monospace;
+  font-size: 30px;
+  text-align: center;
+  padding-top: 40px; }
 
 .galeria {
   display: grid;
@@ -266,15 +250,11 @@ header {
     width: 100%;
     object-fit: cover; }
 
-.titulo-info {
-  display: flex;
-  justify-content: center;
-  align-items: center; }
-  .titulo-info h2 {
-    font-family: monospace;
-    font-size: 40px;
-    text-align: center;
-    padding-top: 40px; }
+.titulo-info h2 {
+  font-family: monospace;
+  font-size: 40px;
+  text-align: center;
+  padding-top: 40px; }
 
 .acercade {
   display: flex;
@@ -294,43 +274,32 @@ header {
       padding: 10px; }
 
 .valores {
-  display: flex;
-  justify-content: center;
-  align-items: center;
   flex-direction: column; }
   .valores .texto p {
     font-size: 20px;
     text-align: center;
     font-family: monospace;
     padding: 10px; }
-  .valores .imagen {
-    display: flex;
-    justify-content: center;
-    align-items: center; }
-    .valores .imagen img {
-      width: 70%;
-      padding: 10px; }
+  .valores .imagen img {
+    width: 70%;
+    padding: 10px; }
 
-.titulo-producto {
-  display: flex;
-  justify-content: center;
-  align-items: center; }
-  .titulo-producto h2 {
-    font-family: monospace;
-    font-size: 40px;
-    text-align: center;
-    padding-top: 40px; }
+.titulo-producto h2 {
+  font-family: monospace;
+  font-size: 40px;
+  text-align: center;
+  padding-top: 40px; }
 
 /*! ----- FOOTER ----- !*/
 footer {
-  background-color: #242424a7;
+  background-color: #4d4d4d;
   display: flex;
   justify-content: space-between;
   align-items: center;
   padding: 20px; }
   footer h2 {
     font-family: "Indie Flower", cursive;
-    font-size: 25px; }
+    font-size: 30px; }
   footer i {
     font-size: 40px; }
   footer div a img {

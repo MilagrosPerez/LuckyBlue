@@ -1,7 +1,7 @@
 /*! ----- FOOTER ----- !*/
 
 footer {
-    background-color: #242424a7;
+    background-color: $color-bg;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -9,11 +9,11 @@ footer {
 
     h2 {
         font-family: "Indie Flower", cursive;
-        font-size: 25px;
+        font-size: nth($font-size, 3);
         }
 
     i {
-        font-size: 40px;
+        font-size: nth($font-size, 2);
         }
 
 
