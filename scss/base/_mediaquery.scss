@@ -1,6 +1,7 @@
 /*! ----- MEDIA QUERY ----- !*/
 
 @media screen and (max-width: 991px) {
+
     .informacion {
         flex-direction: column;
         justify-content: center;
@@ -42,17 +43,18 @@
         }
     }
   
-  
-  
     .video {
       grid-template-columns: 1fr;
     }
-
 
 .acercade {
   flex-direction: column;
     .texto {
         width: 100%;
+        p{
+          text-align: justify;
+          padding: 30px;
+        }
       }
     .imagen {
         img {
@@ -61,9 +63,24 @@
         
     }
   }
+
+  .valores {
+    .texto {
+      p{
+        text-align: justify;
+        padding: 30px;
+      }
+    }
+  }
   
   .container-fluid {
     flex-direction: row-reverse!important;
+  }
+
+  .boton-enviar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
 
   }
