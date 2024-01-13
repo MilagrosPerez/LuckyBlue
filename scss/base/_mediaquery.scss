@@ -127,9 +127,9 @@
         a {
             img {
                 /* width = ancho */
-                width: 100px;
+                width: 80px;
                 /* height = altura */
-                height: 100px;
+                height: 80px;
                 padding: 10px;
                 }
             }
@@ -144,9 +144,12 @@
         h2 {
             font-size: 20px;
         }
+        p{
+          font-size: 12px;
+        }
         a {
             padding: 10px;
-            font-size: 15px;
+            font-size: 12px;
           }
         
     }
